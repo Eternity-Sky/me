@@ -27,7 +27,7 @@ export default ({ mode }) =>
           clientsClaim: true,
           runtimeCaching: [
             {
-              urlPattern: /(.*?)\.(js|css|woff2|woff|ttf)/, // js / css 静态资源缓存
+              urlPattern: /(.*?)\.(js|css|woff2|woff|ttf)/, // js / css 静态资源缓存1
               handler: "CacheFirst",
               options: {
                 cacheName: "js-css-cache",
